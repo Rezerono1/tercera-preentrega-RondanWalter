@@ -1,0 +1,62 @@
+.index__main {
+    background-image: url(../img/fondoDePantalla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .intro {
+        h2 {
+            text-decoration: underline;
+        }
+        p {
+            font-size: map-get($estilos, tamanioParrafo);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+    .main__caruseles1 {
+        .caruselDeNaruto {
+            .caruselDeNaruto__subtittle {
+                text-decoration: underline;
+                color: map-get($estilos, letraAmarilla);
+            }
+            .caruselDeNaruto__descripcion {
+                color: map-get($estilos, letraBlanca);
+                font-size: map-get($estilos, tamanioParrafo);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+        .caruselDeDragonBall {
+            .caruselDeDragonBall__subtittle {
+                text-decoration: underline;
+                color: map-get($estilos, letraAmarilla);
+            }
+            .caruselDeDragonBall__descripcion {
+                color: map-get($estilos, letraBlanca);
+                font-size: map-get($estilos, tamanioParrafo);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+    }
+    .main__caruseles2 {
+        .caruselDeOnePiece {
+            .caruselDeOnePiece__subtittle {
+                text-decoration: underline;
+                color: map-get($estilos, letraAmarilla);
+            }
+            .caruselDeOnePiece__descripcion {
+                color: map-get($estilos, letraBlanca);
+                font-size: map-get($estilos, tamanioParrafo);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+        .caruselDeDemonSlayer {
+            .caruselDeDemonSlayer__subtittle {
+                text-decoration: underline;
+                color: map-get($estilos, letraAmarilla);
+            }
+            .caruselDeDemonSlayer__descripcion {
+                color: map-get($estilos, letraBlanca);
+                font-size: map-get($estilos, tamanioParrafo);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+    }
+}

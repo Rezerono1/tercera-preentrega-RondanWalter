@@ -1,0 +1,18 @@
+.acercaDeMi__main {
+    background-image: url(../img/fondoDePantalla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .acercaDeMi__intro {
+        .intro__subtitulo {
+            h2 {
+                font-size: map-get($estilos, tamanioSubtitulo);
+                text-decoration: underline;
+            }
+        }
+        .intro__descripcion {
+            @extend .videoDeNaruto__descripcion;
+            color: map-get($estilos, letraBlanca);
+            font-size: map-get($estilos, tamanioParrafo);
+        }
+    }
+}

@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.index__header {
+  height: 120px;
+  width: auto;
+  background-image: linear-gradient(270deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.index__header .logo {
+  border-radius: 35px;
+}
+.index__header .titulo h1 {
+  font-size: 45px;
+  text-decoration: solid;
+}
+
+.index__main {
+  background-image: url(../img/fondoDePantalla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.index__main .intro h2 {
+  text-decoration: underline;
+}
+.index__main .intro p {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.index__main .main__caruseles1 .caruselDeNaruto .caruselDeNaruto__subtittle {
+  text-decoration: underline;
+  color: rgb(205, 221, 25);
+}
+.index__main .main__caruseles1 .caruselDeNaruto .caruselDeNaruto__descripcion {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index__main .main__caruseles1 .caruselDeDragonBall .caruselDeDragonBall__subtittle {
+  text-decoration: underline;
+  color: rgb(205, 221, 25);
+}
+.index__main .main__caruseles1 .caruselDeDragonBall .caruselDeDragonBall__descripcion {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index__main .main__caruseles2 .caruselDeOnePiece .caruselDeOnePiece__subtittle {
+  text-decoration: underline;
+  color: rgb(205, 221, 25);
+}
+.index__main .main__caruseles2 .caruselDeOnePiece .caruselDeOnePiece__descripcion {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index__main .main__caruseles2 .caruselDeDemonSlayer .caruselDeDemonSlayer__subtittle {
+  text-decoration: underline;
+  color: rgb(205, 221, 25);
+}
+.index__main .main__caruseles2 .caruselDeDemonSlayer .caruselDeDemonSlayer__descripcion {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.index__footer {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(270deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+}
+
+.animesFavoritos__header {
+  height: 120px;
+  width: auto;
+  background-image: linear-gradient(270deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.animesFavoritos__header .titulo h1 {
+  font-size: 45px;
+  text-decoration: solid;
+}
+.animesFavoritos__header .logo {
+  border-radius: 35px;
+}
+
+.animesFavoritos__main {
+  background-image: url(../img/fondoDePantalla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.animesFavoritos__main .main__contenedorVideos1 .videoDeNaruto .videoDeNaruto__subtittle {
+  text-decoration: underline;
+  color: rgb(205, 221, 25);
+  font-size: 40px;
+}
+.animesFavoritos__main .main__contenedorVideos1 .videoDeNaruto .videoDeNaruto__descripcion, .animesFavoritos__main .main__contenedorVideos1 .videoDeNaruto .acercaDeMi__main .acercaDeMi__intro .intro__descripcion, .acercaDeMi__main .acercaDeMi__intro .animesFavoritos__main .main__contenedorVideos1 .videoDeNaruto .intro__descripcion, .animesFavoritos__main .main__contenedorVideos1 .videoDeNaruto .main__contenedorVideos2 .videoDeDemonSlayer .videoDeDemonSlayer__descripcion, .animesFavoritos__main .main__contenedorVideos2 .videoDeDemonSlayer .main__contenedorVideos1 .videoDeNaruto .videoDeDemonSlayer__descripcion, .animesFavoritos__main .main__contenedorVideos1 .videoDeNaruto .main__contenedorVideos2 .videoDeOnePiece .videoDeOnePiece__descripcion, .animesFavoritos__main .main__contenedorVideos2 .videoDeOnePiece .main__contenedorVideos1 .videoDeNaruto .videoDeOnePiece__descripcion, .animesFavoritos__main .main__contenedorVideos1 .videoDeNaruto .videoDeDragonBall .videoDeDragonBall__descripcion, .animesFavoritos__main .main__contenedorVideos1 .videoDeDragonBall .videoDeNaruto .videoDeDragonBall__descripcion {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.animesFavoritos__main .main__contenedorVideos1 .videoDeDragonBall .videoDeDragonBall__subtittle {
+  text-decoration: underline;
+  color: rgb(205, 221, 25);
+  font-size: 40px;
+}
+.animesFavoritos__main .main__contenedorVideos1 .videoDeDragonBall .videoDeDragonBall__descripcion {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.animesFavoritos__main .main__contenedorVideos2 .videoDeOnePiece .videoDeOnePiece__subtittle {
+  text-decoration: underline;
+  color: rgb(205, 221, 25);
+  font-size: 40px;
+}
+.animesFavoritos__main .main__contenedorVideos2 .videoDeOnePiece .videoDeOnePiece__descripcion {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.animesFavoritos__main .main__contenedorVideos2 .videoDeDemonSlayer .videoDeDemonSlayer__subtittle {
+  text-decoration: underline;
+  color: rgb(205, 221, 25);
+  font-size: 40px;
+}
+.animesFavoritos__main .main__contenedorVideos2 .videoDeDemonSlayer .videoDeDemonSlayer__descripcion {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.animesFavoritos__footer {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(270deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+}
+
+.acercaDeMi__header {
+  height: 120px;
+  width: auto;
+  background-image: linear-gradient(270deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.acercaDeMi__header .logo {
+  border-radius: 35px;
+}
+.acercaDeMi__header .titulo h1 {
+  font-size: 45px;
+  text-decoration: solid;
+}
+
+.acercaDeMi__main {
+  background-image: url(../img/fondoDePantalla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.acercaDeMi__main .acercaDeMi__intro .intro__subtitulo h2 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+.acercaDeMi__main .acercaDeMi__intro .intro__descripcion {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.acercaDeMi__footer {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(270deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+}
+
+.productos__header {
+  height: 120px;
+  width: auto;
+  background-image: linear-gradient(270deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.productos__header .titulo h1 {
+  font-size: 45px;
+  text-decoration: solid;
+}
+.productos__header .logo {
+  border-radius: 35px;
+}
+
+.productos__main {
+  background-image: url(../img/fondoDePantalla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.productos__main .tabla__productos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.productos__main .tabla__productos .table {
+  background-color: rgb(0, 255, 149);
+}
+.productos__main .tabla__productos .table thead {
+  width: auto;
+  margin: 0%;
+}
+.productos__main .tabla__productos .table thead th {
+  font-size: 10px;
+  padding: auto;
+  width: 20px;
+}
+.productos__main .tabla__productos .table tbody {
+  padding: 0%;
+  width: auto;
+  margin: 0%;
+}
+.productos__main .tabla__productos .table tbody th {
+  font-size: 10px;
+  padding: auto;
+  width: 20px;
+}
+.productos__main .tabla__productos .table tbody td {
+  font-size: 10px;
+  padding: auto;
+  width: 20px;
+}
+.productos__main .main__secciones .seccionNaruto .seccionSub {
+  text-decoration: underline;
+  color: rgb(205, 221, 25);
+  font-size: 40px;
+}
+.productos__main .main__secciones .seccionNaruto li {
+  background-color: rgb(151, 227, 202);
+}
+.productos__main .main__secciones .seccionNaruto button {
+  border-radius: 20px;
+  background-color: rgb(18, 29, 243);
+  color: rgb(255, 255, 255);
+}
+.productos__main .main__secciones .seccionDragonBall .seccionSub {
+  text-decoration: underline;
+  color: rgb(205, 221, 25);
+  font-size: 40px;
+}
+.productos__main .main__secciones .seccionDragonBall li {
+  background-color: rgb(86, 193, 220);
+}
+.productos__main .main__secciones .seccionDragonBall button {
+  border-radius: 20px;
+  background-color: rgb(18, 29, 243);
+  color: rgb(255, 255, 255);
+}
+.productos__main .main__secciones .seccionOnePiece .seccionSub {
+  text-decoration: underline;
+  color: rgb(205, 221, 25);
+  font-size: 40px;
+}
+.productos__main .main__secciones .seccionOnePiece li {
+  background-color: rgb(171, 153, 194);
+}
+.productos__main .main__secciones .seccionOnePiece button {
+  border-radius: 20px;
+  background-color: rgb(18, 29, 243);
+  color: rgb(255, 255, 255);
+}
+.productos__main .main__secciones .seccionDemonSlayer .seccionSub {
+  text-decoration: underline;
+  color: rgb(205, 221, 25);
+  font-size: 40px;
+}
+.productos__main .main__secciones .seccionDemonSlayer li {
+  background-color: rgb(156, 101, 104);
+}
+.productos__main .main__secciones .seccionDemonSlayer button {
+  border-radius: 20px;
+  background-color: rgb(18, 29, 243);
+  color: rgb(255, 255, 255);
+}
+
+.productos__footer {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(270deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+}
+
+.ubicacion__header {
+  height: 120px;
+  width: auto;
+  background-image: linear-gradient(270deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.ubicacion__header .logo {
+  border-radius: 35px;
+}
+.ubicacion__header .titulo h1 {
+  font-size: 45px;
+  text-decoration: solid;
+}
+
+.ubicacion__main {
+  background-image: url(../img/fondoDePantalla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ubicacion__main .ubicacion__intro .intro__subtitulo {
+  text-decoration: underline;
+  color: rgb(205, 221, 25);
+  font-size: 40px;
+}
+.ubicacion__main .ubicacion__intro .intro__descripcion {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ubicacion__main .ubicacion__mapa .mapa__descripcion {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ubicacion__footer {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(270deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+}
+
+.contactame__header {
+  height: 120px;
+  width: auto;
+  background-image: linear-gradient(270deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.contactame__header .logo {
+  border-radius: 35px;
+}
+.contactame__header .titulo h1 {
+  font-size: 45px;
+  text-decoration: solid;
+}
+
+.contactame__main {
+  background-image: url(../img/fondoDePantalla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contactame__main .contactame__subtitulo {
+  text-decoration: underline;
+  font-size: 40px;
+}
+.contactame__main .seccion__genero {
+  color: rgb(255, 255, 255);
+}
+.contactame__main .seccion__btn .btn__reiniciar {
+  border-radius: 20px;
+  background-color: rgb(18, 29, 243);
+  color: rgb(255, 255, 255);
+}
+.contactame__main .seccion__btn .btn__enviar {
+  border-radius: 20px;
+  background-color: rgb(18, 29, 243);
+  color: rgb(255, 255, 255);
+}
+
+.contactame__footer {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(270deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+}/*# sourceMappingURL=style.css.map */

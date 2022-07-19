@@ -1,0 +1,57 @@
+.animesFavoritos__main {
+    background-image: url(../img/fondoDePantalla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .main__contenedorVideos1 {
+        .videoDeNaruto {
+            .videoDeNaruto__subtittle {
+                text-decoration: underline;
+                color: map-get($estilos, letraAmarilla);
+                font-size: map-get($estilos, tamanioSubtitulo);
+            }
+            .videoDeNaruto__descripcion {
+                color: map-get($estilos, letraBlanca);
+                font-size: map-get($estilos, tamanioParrafo);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+        .videoDeDragonBall {
+            .videoDeDragonBall__subtittle {
+                text-decoration: underline;
+                color: map-get($estilos, letraAmarilla);
+                font-size: map-get($estilos, tamanioSubtitulo);
+            }
+            .videoDeDragonBall__descripcion {
+                @extend .videoDeNaruto__descripcion;
+                color: map-get($estilos, letraBlanca);
+                font-size: map-get($estilos, tamanioParrafo);
+            }
+        }
+    }
+    .main__contenedorVideos2 {
+        .videoDeOnePiece {
+            .videoDeOnePiece__subtittle {
+                text-decoration: underline;
+                color: map-get($estilos, letraAmarilla);
+                font-size: map-get($estilos, tamanioSubtitulo);
+            }
+            .videoDeOnePiece__descripcion {
+                @extend .videoDeNaruto__descripcion;
+                color: map-get($estilos, letraBlanca);
+                font-size: map-get($estilos, tamanioParrafo);
+            }
+        }
+        .videoDeDemonSlayer {
+            .videoDeDemonSlayer__subtittle {
+                text-decoration: underline;
+                color: map-get($estilos, letraAmarilla);
+                font-size: map-get($estilos, tamanioSubtitulo);
+            }
+            .videoDeDemonSlayer__descripcion {
+                @extend .videoDeNaruto__descripcion;
+                color: map-get($estilos, letraBlanca);
+                font-size: map-get($estilos, tamanioParrafo);
+            }
+        }
+    }
+}

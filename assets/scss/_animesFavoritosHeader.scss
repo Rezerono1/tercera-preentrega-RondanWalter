@@ -1,0 +1,11 @@
+.animesFavoritos__header {
+    @include propiedades(120px, auto);
+    background-image: map-get($estilos, fondoHeader);
+    .titulo h1 {
+        font-size: map-get($estilos, tamanioTitulo);
+        text-decoration: solid;
+    }
+    .logo {
+        border-radius: 35px;
+    }
+}

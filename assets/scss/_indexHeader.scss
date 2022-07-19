@@ -1,0 +1,11 @@
+.index__header {
+    @include propiedades(120px, auto);
+    background-image: map-get($estilos, fondoHeader);
+    .logo {
+        border-radius: 35px;
+    }
+    .titulo h1 {
+        font-size: map-get($estilos, tamanioTitulo);
+        text-decoration: solid;
+    }
+}

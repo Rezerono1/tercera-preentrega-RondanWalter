@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="description" content="escribe tu opinion y dame tus consejos para nuevos conjustos a tus gustos">
+    <meta name="keywords" content="contactame, escribe tu comentario">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactame</title>
+    <link rel="shortcut icon" href="../assets/img/logoDeIcono.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body class="contactame__body container-fluid">
+    <header class="contactame__header row align-items-center mx-1">
+        <div class="col-2 py-1">
+            <img class="logo img-fluid" src="../assets/img/Logo.jpg" alt="logo de pagina">
+        </div>
+        <div class="titulo col-10">
+            <h1 class="text-center align-items-center">CONTACTAME</h1>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mx-1 my-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navegador:</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./animesFavoritos.html">animes favoritos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./acercaDeMi.html">acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ubicacion.html">ubicacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contactame.html">contactame</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="contactame__main mx-1">
+        <div class="contactame__subtitulo col-12 text-start px-3">
+            <h2>Contactame rellenando el cuestionario:</h2>
+        </div>
+        <div class="container-fluid row col-12 align-items-center ">
+            <form class="col-12" action="" method="post">
+                <div class="col-12 col-md-8 col-xl-5 mx-3">
+                    <div class="col-12 my-4">
+                        <input type="text" class="form-control" placeholder="Nombre y Apellido:" aria-label="Nombre y Apellido:" !required>
+                    </div>
+                    <div class="col-12 my-4">
+                        <input type="number" class="form-control" placeholder="DNI:" aria-label="DNI:" !required>
+                    </div>
+                    <div class="col-12 my-4">
+                        <input type="email" class="form-control" placeholder="Email:" aria-label="Email:" !required>
+                    </div>
+                    <div class="seccion__genero col-12">
+                        <div class="form-check col-12 my-3">
+                            <input class="form-check-input" type="radio" name="sexo" id="Hombre">
+                            <label class="form-check-label" for="Hombre">
+                    Hombre
+                    </label>
+                        </div>
+                        <div class="form-check col-12 my-3">
+                            <input class="form-check-input" type="radio" name="sexo" id="Mujer" checked>
+                            <label class="form-check-label" for="Mujer">
+                    Mujer
+                    </label>
+                        </div>
+                        <div class="form-check col-12 my-3">
+                            <input class="form-check-input" type="radio" name="sexo" id="No Binario" checked>
+                            <label class="form-check-label" for="No Binario">
+                    No Binario
+                    </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-xl-5 mx-3 my-4">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="deja tu comentario" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Escribe tu comentario:</label>
+                    </div>
+                    <div class="seccion__btn text-end">
+                        <button class="btn__reiniciar p-1" type="reset">Reiniciar</button>
+                        <button class="btn__enviar p-1" type="submit">Enviar</button>
+                    </div>
+            </form>
+            </div>
+        </div>
+    </main>
+    <footer class="contactame__footer row mt-1 mx-1 py-4">
+        <h4 class="col-12">©Whasho, todos los derechos reservados.</h4>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

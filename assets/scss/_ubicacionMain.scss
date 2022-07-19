@@ -1,0 +1,24 @@
+.ubicacion__main {
+    background-image: url(../img/fondoDePantalla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .ubicacion__intro {
+        .intro__subtitulo {
+            text-decoration: underline;
+            color: map-get($estilos, letraAmarilla);
+            font-size: map-get($estilos, tamanioSubtitulo);
+        }
+        .intro__descripcion {
+            color: map-get($estilos, letraBlanca);
+            font-size: map-get($estilos, tamanioParrafo);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    .ubicacion__mapa {
+        .mapa__descripcion {
+            color: map-get($estilos, letraBlanca);
+            font-size: map-get($estilos, tamanioParrafo);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}

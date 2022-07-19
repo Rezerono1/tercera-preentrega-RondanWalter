@@ -1,0 +1,24 @@
+.contactame__main {
+    background-image: url(../img/fondoDePantalla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .contactame__subtitulo {
+        text-decoration: underline;
+        font-size: map-get($estilos, tamanioSubtitulo);
+    }
+    .seccion__genero {
+        color: map-get($estilos, letraBlanca);
+    }
+    .seccion__btn {
+        .btn__reiniciar {
+            border-radius: 20px;
+            background-color: rgb(18, 29, 243);
+            color: map-get($estilos, letraBlanca);
+        }
+        .btn__enviar {
+            border-radius: 20px;
+            background-color: rgb(18, 29, 243);
+            color: map-get($estilos, letraBlanca);
+        }
+    }
+}

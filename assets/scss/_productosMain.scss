@@ -1,0 +1,98 @@
+.productos__main {
+    background-image: url(../img/fondoDePantalla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .tabla__productos {
+        display: flex;
+        flex-wrap: wrap;
+        .table {
+            background-color: rgb(0, 255, 149);
+            thead {
+                width: auto;
+                margin: 0%;
+                th {
+                    font-size: 10px;
+                    padding: auto;
+                    width: 20px;
+                }
+            }
+            tbody {
+                padding: 0%;
+                width: auto;
+                margin: 0%;
+                th {
+                    font-size: 10px;
+                    padding: auto;
+                    width: 20px;
+                }
+                td {
+                    font-size: 10px;
+                    padding: auto;
+                    width: 20px;
+                }
+            }
+        }
+    }
+    .main__secciones {
+        .seccionNaruto {
+            .seccionSub {
+                text-decoration: underline;
+                color: map-get($estilos, letraAmarilla);
+                font-size: map-get($estilos, tamanioSubtitulo);
+            }
+            li {
+                background-color: rgb(151, 227, 202);
+            }
+            button {
+                border-radius: 20px;
+                background-color: rgb(18, 29, 243);
+                color: map-get($estilos, letraBlanca);
+            }
+        }
+        .seccionDragonBall {
+            .seccionSub {
+                text-decoration: underline;
+                color: map-get($estilos, letraAmarilla);
+                font-size: map-get($estilos, tamanioSubtitulo);
+            }
+            li {
+                background-color: rgb(86, 193, 220);
+            }
+            button {
+                border-radius: 20px;
+                background-color: rgb(18, 29, 243);
+                color: map-get($estilos, letraBlanca);
+            }
+        }
+        .seccionOnePiece {
+            .seccionSub {
+                text-decoration: underline;
+                color: map-get($estilos, letraAmarilla);
+                font-size: map-get($estilos, tamanioSubtitulo);
+            }
+            li {
+                background-color: rgb(171, 153, 194);
+            }
+            button {
+                border-radius: 20px;
+                background-color: rgb(18, 29, 243);
+                color: map-get($estilos, letraBlanca);
+            }
+        }
+        .seccionDemonSlayer {
+            .seccionSub {
+                text-decoration: underline;
+                color: map-get($estilos, letraAmarilla);
+                font-size: map-get($estilos, tamanioSubtitulo);
+            }
+            li {
+                background-color: rgb(156, 101, 104);
+            }
+            button {
+                border-radius: 20px;
+                background-color: rgb(18, 29, 243);
+                color: map-get($estilos, letraBlanca);
+            }
+        }
+    }
+}
